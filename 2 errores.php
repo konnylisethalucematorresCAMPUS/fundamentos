@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Errores</title>
 </head>
 <body>
 <?php
@@ -24,7 +24,7 @@
         /*este error me bloquea el codigo ademas  de esto significa que ha ocurrido algo muy serio que impide 
         que el programa funcione correctamente. Puede ser causado por diversas razones, como la falta de un archivo necesario, 
         la violación de reglas de sintaxis o el uso incorrecto de funciones o variables*/
-        sdfsdfsd; 
+        //sdfsdfsd;
 ?>
 </body>
 </html>
