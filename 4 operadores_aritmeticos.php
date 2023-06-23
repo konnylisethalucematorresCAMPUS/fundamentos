@@ -50,7 +50,7 @@
     $counter += 2; //este es para incrementar de 2 en dos 
     $counter -= 4; //este es para decrementar de 4 en cuatro
 
-    echo $counter
+    echo $counter;
 
 ///////////////////////////////////////////////////////////////////////////////////////////
     /*3-la ley de la Jerarquía - precedencia */ 
