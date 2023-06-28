@@ -14,12 +14,27 @@
             <label>Clave</label>
             <input type="Password" name="password">
             <input type="submit" value="Enviar">
+
         <?php
-            //esto es un boton con php boton hijito
+            //esto es un boton adicional con php boton hijito solo que pues tiene la misma funcion de uno normal en html
             echo '<input type="submit" value="Enviar2">';
         ?>
         </form>
     </h1>
+    // ejemplo del metodo $_GET
+    <?php
+    //esto es para que cuando yo envie mis cresdenciales de usuario y clave se me impriman 
+    // el if es un condicional para que si llegaron datos via POST imprimalos pero si no ha llegado informacion pues no haga nada,
+
+    if ($_POST){
+    echo "<br>";
+    $usuario = $_POST['user'];
+    echo $usuario . "<br>";
+    $clave = $_POST['password'];
+    echo $clave  . "<br>";
+    }
+    ?>
+    
 
     
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -30,11 +45,12 @@
 
 <?php
     //esto es para que cuando yo envie mis cresdenciales de usuario y clave se me impriman 
-    echo "<br>";
+   /* echo "<br>";
     $usuario = $_GET['user'];
     echo $usuario . "<br>";
     $clave = $_GET['password'];
     echo $clave  . "<br>";
+    */
 
     echo "<h1>VARIABLES PREDEFINIDAS</h1>";
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
